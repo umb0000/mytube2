@@ -17,6 +17,6 @@ function handleProfile(req, res) {
 
 app.get("/", handleHome)
 
-app.get("/", handleProfile)
+app.get("/profile", handleProfile)
 
 app.listen(PORT, handleListening);
