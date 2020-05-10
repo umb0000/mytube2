@@ -2,13 +2,12 @@
   "name": "mytube2",
   "version": "1.0.0",
   "description": "",
-  "main": "node.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "main": "index.js",
   "author": "sandwich",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "scripts": {
+    "start":"node index.js"
   }
 }
