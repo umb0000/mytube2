@@ -12,7 +12,7 @@ function handleHome(req, res) {
 }
 
 function handleProfile(req, res) {
-    res.send("Profile")
+    res.send("This is Profile")
 }
 
 app.get("/", handleHome)
